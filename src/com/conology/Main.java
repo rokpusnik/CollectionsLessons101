@@ -1,8 +1,7 @@
-package net.conology;
+package com.conology;
 
 public class Main {
     public static void main(String[]s) {
-        //test
-        //test12
+        System.out.println("test");
     }
 }
