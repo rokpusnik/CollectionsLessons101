@@ -12,9 +12,6 @@ public class Main {
         reserveMySeat(theatre,"D12");
         reserveMySeat(theatre,"B13");
 
-        List<Theatre.Seat> reverseSeats = new ArrayList<>(theatre.getSeats());
-        Collections.reverse(reverseSeats);
-        printList(reverseSeats);
 
 
         List<Theatre.Seat> priceSeats = new ArrayList<>(theatre.getSeats());

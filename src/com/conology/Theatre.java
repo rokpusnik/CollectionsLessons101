@@ -16,7 +16,9 @@ public class Theatre {
                     return -1;
                 } else if (seat1.getPrice() > seat2.getPrice()) {
                     return 1;
-                } else return 0;
+                } else {
+                    return 0;
+                }
             }
         };
     }
