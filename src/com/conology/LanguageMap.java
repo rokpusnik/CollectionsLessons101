@@ -18,6 +18,12 @@ public class LanguageMap {
         } else {
             languages.put("Java", "this course is about Java");
         }
+        languages.remove("Lisp");
+        if(languages.remove("Algol", "a family of algorithmic languages")) {
+            System.out.println("algol removed");
+        } else {
+            System.out.println("algol not removed, key/value pair not found");
+        }
         for(String key : languages.keySet()) {
             System.out.println(key + " : " + languages.get(key));
         }
